@@ -1,0 +1,729 @@
+=INFO REPORT==== 22-Mar-2021::12:19:07 ===
+accepting AMQP connection <0.26296.60> (52.29.119.55:48059 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 22-Mar-2021::12:19:14 ===
+closing AMQP connection <0.26296.60> (52.29.119.55:48059 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 22-Mar-2021::12:19:15 ===
+accepting AMQP connection <0.26314.60> (52.29.119.55:48070 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 22-Mar-2021::12:19:31 ===
+closing AMQP connection <0.26314.60> (52.29.119.55:48070 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 22-Mar-2021::18:02:40 ===
+accepting AMQP connection <0.28497.60> (52.29.119.55:49707 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 22-Mar-2021::18:02:49 ===
+closing AMQP connection <0.28497.60> (52.29.119.55:49707 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 22-Mar-2021::18:02:50 ===
+accepting AMQP connection <0.28515.60> (52.29.119.55:49718 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 22-Mar-2021::18:03:07 ===
+closing AMQP connection <0.28515.60> (52.29.119.55:49718 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 22-Mar-2021::18:03:08 ===
+accepting AMQP connection <0.28535.60> (52.29.119.55:49732 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 22-Mar-2021::18:03:16 ===
+closing AMQP connection <0.28535.60> (52.29.119.55:49732 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 22-Mar-2021::18:13:20 ===
+accepting AMQP connection <0.28616.60> (52.29.119.55:49792 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 22-Mar-2021::18:13:28 ===
+closing AMQP connection <0.28616.60> (52.29.119.55:49792 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 22-Mar-2021::18:13:29 ===
+accepting AMQP connection <0.28634.60> (52.29.119.55:49802 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 22-Mar-2021::18:13:46 ===
+closing AMQP connection <0.28634.60> (52.29.119.55:49802 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 22-Mar-2021::18:13:47 ===
+accepting AMQP connection <0.28652.60> (52.29.119.55:49816 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 22-Mar-2021::18:13:55 ===
+closing AMQP connection <0.28652.60> (52.29.119.55:49816 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::07:06:08 ===
+closing AMQP connection <0.25816.50> (18.184.145.214:49312 -> 10.84.5.201:5672)
+
+=INFO REPORT==== 23-Mar-2021::07:06:37 ===
+accepting AMQP connection <0.780.61> (18.184.145.214:46158 -> 10.84.5.201:5672)
+
+=INFO REPORT==== 23-Mar-2021::11:46:53 ===
+accepting AMQP connection <0.2577.61> (52.29.119.55:54815 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::11:47:01 ===
+closing AMQP connection <0.2577.61> (52.29.119.55:54815 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::11:47:03 ===
+accepting AMQP connection <0.2595.61> (52.29.119.55:54826 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::11:47:19 ===
+closing AMQP connection <0.2595.61> (52.29.119.55:54826 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::12:23:47 ===
+accepting AMQP connection <0.2843.61> (52.29.119.55:55012 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::12:23:54 ===
+closing AMQP connection <0.2843.61> (52.29.119.55:55012 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::12:23:56 ===
+accepting AMQP connection <0.2862.61> (52.29.119.55:55023 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::12:24:05 ===
+closing AMQP connection <0.2862.61> (52.29.119.55:55023 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::12:28:47 ===
+accepting AMQP connection <0.2909.61> (52.29.119.55:55056 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::12:28:55 ===
+closing AMQP connection <0.2909.61> (52.29.119.55:55056 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::12:28:56 ===
+accepting AMQP connection <0.2927.61> (52.29.119.55:55068 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::12:29:06 ===
+closing AMQP connection <0.2927.61> (52.29.119.55:55068 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::15:13:40 ===
+accepting AMQP connection <0.3983.61> (52.29.119.55:55861 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::15:13:47 ===
+closing AMQP connection <0.3983.61> (52.29.119.55:55861 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::15:13:48 ===
+accepting AMQP connection <0.4001.61> (52.29.119.55:55871 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::15:13:58 ===
+closing AMQP connection <0.4001.61> (52.29.119.55:55871 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::15:26:07 ===
+accepting AMQP connection <0.4096.61> (52.29.119.55:55941 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::15:26:15 ===
+closing AMQP connection <0.4096.61> (52.29.119.55:55941 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::15:26:16 ===
+accepting AMQP connection <0.4114.61> (52.29.119.55:55951 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::15:26:26 ===
+closing AMQP connection <0.4114.61> (52.29.119.55:55951 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::15:26:27 ===
+accepting AMQP connection <0.4132.61> (52.29.119.55:55964 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::15:26:34 ===
+closing AMQP connection <0.4132.61> (52.29.119.55:55964 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::15:28:05 ===
+accepting AMQP connection <0.4159.61> (52.29.119.55:55983 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::15:28:13 ===
+closing AMQP connection <0.4159.61> (52.29.119.55:55983 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::15:30:28 ===
+accepting AMQP connection <0.4192.61> (52.29.119.55:56003 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::15:30:36 ===
+closing AMQP connection <0.4192.61> (52.29.119.55:56003 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::15:55:08 ===
+accepting AMQP connection <0.4364.61> (52.29.119.55:56129 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::15:55:16 ===
+closing AMQP connection <0.4364.61> (52.29.119.55:56129 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::15:55:17 ===
+accepting AMQP connection <0.4382.61> (52.29.119.55:56140 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::15:55:27 ===
+closing AMQP connection <0.4382.61> (52.29.119.55:56140 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::15:55:28 ===
+accepting AMQP connection <0.4400.61> (52.29.119.55:56153 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::15:55:36 ===
+closing AMQP connection <0.4400.61> (52.29.119.55:56153 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::16:12:13 ===
+accepting AMQP connection <0.4523.61> (52.29.119.55:56243 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::16:12:21 ===
+closing AMQP connection <0.4523.61> (52.29.119.55:56243 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::16:12:23 ===
+accepting AMQP connection <0.4541.61> (52.29.119.55:56255 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::16:12:33 ===
+closing AMQP connection <0.4541.61> (52.29.119.55:56255 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::16:12:34 ===
+accepting AMQP connection <0.4559.61> (52.29.119.55:56267 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::16:12:42 ===
+closing AMQP connection <0.4559.61> (52.29.119.55:56267 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::16:20:19 ===
+accepting AMQP connection <0.4625.61> (52.29.119.55:56314 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::16:20:27 ===
+closing AMQP connection <0.4625.61> (52.29.119.55:56314 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::16:20:28 ===
+accepting AMQP connection <0.4643.61> (52.29.119.55:56326 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::16:20:38 ===
+closing AMQP connection <0.4643.61> (52.29.119.55:56326 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::16:22:26 ===
+accepting AMQP connection <0.4672.61> (52.29.119.55:56346 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::16:22:33 ===
+closing AMQP connection <0.4672.61> (52.29.119.55:56346 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::16:22:35 ===
+accepting AMQP connection <0.4690.61> (52.29.119.55:56357 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::16:22:44 ===
+closing AMQP connection <0.4690.61> (52.29.119.55:56357 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::16:24:16 ===
+accepting AMQP connection <0.4718.61> (52.29.119.55:56376 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::16:24:24 ===
+closing AMQP connection <0.4718.61> (52.29.119.55:56376 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::16:24:25 ===
+accepting AMQP connection <0.4736.61> (52.29.119.55:56388 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::16:24:34 ===
+closing AMQP connection <0.4736.61> (52.29.119.55:56388 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::17:02:57 ===
+accepting AMQP connection <0.4996.61> (52.29.119.55:56581 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::17:03:05 ===
+closing AMQP connection <0.4996.61> (52.29.119.55:56581 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::17:03:06 ===
+accepting AMQP connection <0.5014.61> (52.29.119.55:56593 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::17:03:16 ===
+closing AMQP connection <0.5014.61> (52.29.119.55:56593 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::19:50:41 ===
+accepting AMQP connection <0.6088.61> (52.29.119.55:57399 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::19:50:50 ===
+closing AMQP connection <0.6088.61> (52.29.119.55:57399 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::19:50:51 ===
+accepting AMQP connection <0.6106.61> (52.29.119.55:57409 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::19:51:01 ===
+closing AMQP connection <0.6106.61> (52.29.119.55:57409 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::19:51:02 ===
+accepting AMQP connection <0.6125.61> (52.29.119.55:57424 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::19:51:10 ===
+closing AMQP connection <0.6125.61> (52.29.119.55:57424 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::20:13:57 ===
+accepting AMQP connection <0.6286.61> (52.29.119.55:57542 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::20:14:05 ===
+closing AMQP connection <0.6286.61> (52.29.119.55:57542 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::20:14:06 ===
+accepting AMQP connection <0.6304.61> (52.29.119.55:57554 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::20:14:16 ===
+closing AMQP connection <0.6304.61> (52.29.119.55:57554 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::20:14:17 ===
+accepting AMQP connection <0.6322.61> (52.29.119.55:57566 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::20:14:25 ===
+closing AMQP connection <0.6322.61> (52.29.119.55:57566 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::20:19:19 ===
+accepting AMQP connection <0.6371.61> (52.29.119.55:57600 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::20:19:27 ===
+closing AMQP connection <0.6371.61> (52.29.119.55:57600 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::20:19:28 ===
+accepting AMQP connection <0.6389.61> (52.29.119.55:57611 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::20:19:38 ===
+closing AMQP connection <0.6389.61> (52.29.119.55:57611 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::20:19:39 ===
+accepting AMQP connection <0.6407.61> (52.29.119.55:57623 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::20:19:47 ===
+closing AMQP connection <0.6407.61> (52.29.119.55:57623 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::20:25:39 ===
+accepting AMQP connection <0.6462.61> (52.29.119.55:57663 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::20:25:50 ===
+closing AMQP connection <0.6462.61> (52.29.119.55:57663 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::20:25:51 ===
+accepting AMQP connection <0.6480.61> (52.29.119.55:57674 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::20:26:08 ===
+closing AMQP connection <0.6480.61> (52.29.119.55:57674 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 23-Mar-2021::20:26:09 ===
+accepting AMQP connection <0.6499.61> (52.29.119.55:57688 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 23-Mar-2021::20:26:20 ===
+closing AMQP connection <0.6499.61> (52.29.119.55:57688 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::07:48:28 ===
+accepting AMQP connection <0.10821.61> (52.29.119.55:60934 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::07:48:37 ===
+closing AMQP connection <0.10821.61> (52.29.119.55:60934 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::07:48:38 ===
+accepting AMQP connection <0.10839.61> (52.29.119.55:60944 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::07:48:48 ===
+closing AMQP connection <0.10839.61> (52.29.119.55:60944 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::07:48:49 ===
+accepting AMQP connection <0.10857.61> (52.29.119.55:60957 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::07:48:57 ===
+closing AMQP connection <0.10857.61> (52.29.119.55:60957 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::08:07:44 ===
+accepting AMQP connection <0.10993.61> (52.29.119.55:32824 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::08:07:52 ===
+closing AMQP connection <0.10993.61> (52.29.119.55:32824 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::08:07:53 ===
+accepting AMQP connection <0.11011.61> (52.29.119.55:32835 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::08:08:04 ===
+closing AMQP connection <0.11011.61> (52.29.119.55:32835 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::08:08:05 ===
+accepting AMQP connection <0.11029.61> (52.29.119.55:32848 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::08:08:13 ===
+closing AMQP connection <0.11029.61> (52.29.119.55:32848 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::08:12:04 ===
+accepting AMQP connection <0.11072.61> (52.29.119.55:32876 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::08:12:13 ===
+closing AMQP connection <0.11072.61> (52.29.119.55:32876 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::08:27:52 ===
+accepting AMQP connection <0.11189.61> (52.29.119.55:32962 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::08:28:00 ===
+closing AMQP connection <0.11189.61> (52.29.119.55:32962 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::08:28:01 ===
+accepting AMQP connection <0.11206.61> (52.29.119.55:32974 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::08:28:11 ===
+closing AMQP connection <0.11206.61> (52.29.119.55:32974 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::08:28:12 ===
+accepting AMQP connection <0.11225.61> (52.29.119.55:32986 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::08:28:20 ===
+closing AMQP connection <0.11225.61> (52.29.119.55:32986 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::08:48:15 ===
+accepting AMQP connection <0.11368.61> (52.29.119.55:33090 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::08:48:24 ===
+closing AMQP connection <0.11368.61> (52.29.119.55:33090 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::08:48:25 ===
+accepting AMQP connection <0.11386.61> (52.29.119.55:33101 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::08:48:36 ===
+closing AMQP connection <0.11386.61> (52.29.119.55:33101 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::08:48:37 ===
+accepting AMQP connection <0.11405.61> (52.29.119.55:33114 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::08:48:45 ===
+closing AMQP connection <0.11405.61> (52.29.119.55:33114 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::11:51:04 ===
+accepting AMQP connection <0.12573.61> (52.29.119.55:33988 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::11:51:12 ===
+closing AMQP connection <0.12573.61> (52.29.119.55:33988 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::11:51:13 ===
+accepting AMQP connection <0.12591.61> (52.29.119.55:33999 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::11:51:21 ===
+closing AMQP connection <0.12591.61> (52.29.119.55:33999 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::11:51:22 ===
+accepting AMQP connection <0.12609.61> (52.29.119.55:34009 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::11:51:39 ===
+closing AMQP connection <0.12609.61> (52.29.119.55:34009 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::11:51:40 ===
+accepting AMQP connection <0.12628.61> (52.29.119.55:34023 -> 10.84.5.201:5672)
+
+=INFO REPORT==== 24-Mar-2021::11:51:40 ===
+accepting AMQP connection <0.12644.61> (52.29.119.55:34026 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::11:51:49 ===
+closing AMQP connection <0.12628.61> (52.29.119.55:34023 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=WARNING REPORT==== 24-Mar-2021::11:51:49 ===
+closing AMQP connection <0.12644.61> (52.29.119.55:34026 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::12:21:21 ===
+accepting AMQP connection <0.12849.61> (52.29.119.55:34186 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::12:21:29 ===
+closing AMQP connection <0.12849.61> (52.29.119.55:34186 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::12:21:30 ===
+accepting AMQP connection <0.12867.61> (52.29.119.55:34196 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::12:21:39 ===
+closing AMQP connection <0.12867.61> (52.29.119.55:34196 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::12:35:19 ===
+accepting AMQP connection <0.12970.61> (52.29.119.55:34271 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::12:35:27 ===
+closing AMQP connection <0.12970.61> (52.29.119.55:34271 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::12:35:28 ===
+accepting AMQP connection <0.12988.61> (52.29.119.55:34283 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::12:35:37 ===
+closing AMQP connection <0.12988.61> (52.29.119.55:34283 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::12:47:39 ===
+accepting AMQP connection <0.13082.61> (52.29.119.55:34351 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::12:47:47 ===
+closing AMQP connection <0.13082.61> (52.29.119.55:34351 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::12:47:48 ===
+accepting AMQP connection <0.13100.61> (52.29.119.55:34363 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::12:47:57 ===
+closing AMQP connection <0.13100.61> (52.29.119.55:34363 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::13:03:34 ===
+accepting AMQP connection <0.13217.61> (52.29.119.55:34449 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::13:03:42 ===
+closing AMQP connection <0.13217.61> (52.29.119.55:34449 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::13:03:43 ===
+accepting AMQP connection <0.13235.61> (52.29.119.55:34462 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::13:03:52 ===
+closing AMQP connection <0.13235.61> (52.29.119.55:34462 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::18:15:18 ===
+accepting AMQP connection <0.15218.61> (52.29.119.55:35947 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::18:15:26 ===
+closing AMQP connection <0.15218.61> (52.29.119.55:35947 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::18:15:27 ===
+accepting AMQP connection <0.15236.61> (52.29.119.55:35960 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::18:15:37 ===
+closing AMQP connection <0.15236.61> (52.29.119.55:35960 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::18:18:01 ===
+accepting AMQP connection <0.15269.61> (52.29.119.55:35983 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::18:18:09 ===
+closing AMQP connection <0.15269.61> (52.29.119.55:35983 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::18:18:10 ===
+accepting AMQP connection <0.15287.61> (52.29.119.55:35993 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::18:18:19 ===
+closing AMQP connection <0.15287.61> (52.29.119.55:35993 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::22:51:08 ===
+accepting AMQP connection <0.17030.61> (52.29.119.55:37298 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::22:51:20 ===
+closing AMQP connection <0.17030.61> (52.29.119.55:37298 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 24-Mar-2021::22:51:21 ===
+accepting AMQP connection <0.17049.61> (52.29.119.55:37309 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 24-Mar-2021::22:51:51 ===
+closing AMQP connection <0.17049.61> (52.29.119.55:37309 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 25-Mar-2021::10:39:53 ===
+accepting AMQP connection <0.21513.61> (52.29.119.55:40680 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 25-Mar-2021::10:40:01 ===
+closing AMQP connection <0.21513.61> (52.29.119.55:40680 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 25-Mar-2021::10:40:02 ===
+accepting AMQP connection <0.21531.61> (52.29.119.55:40693 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 25-Mar-2021::10:40:11 ===
+closing AMQP connection <0.21531.61> (52.29.119.55:40693 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 25-Mar-2021::10:49:07 ===
+accepting AMQP connection <0.21605.61> (52.29.119.55:40746 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 25-Mar-2021::10:49:15 ===
+closing AMQP connection <0.21605.61> (52.29.119.55:40746 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 25-Mar-2021::10:49:16 ===
+accepting AMQP connection <0.21623.61> (52.29.119.55:40757 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 25-Mar-2021::10:49:25 ===
+closing AMQP connection <0.21623.61> (52.29.119.55:40757 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 25-Mar-2021::10:52:55 ===
+accepting AMQP connection <0.21663.61> (52.29.119.55:40786 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 25-Mar-2021::10:53:03 ===
+closing AMQP connection <0.21663.61> (52.29.119.55:40786 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 25-Mar-2021::10:53:04 ===
+accepting AMQP connection <0.21681.61> (52.29.119.55:40797 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 25-Mar-2021::10:53:13 ===
+closing AMQP connection <0.21681.61> (52.29.119.55:40797 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::14:53:33 ===
+accepting AMQP connection <0.32300.61> (52.29.119.55:48768 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::14:53:42 ===
+closing AMQP connection <0.32300.61> (52.29.119.55:48768 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::14:53:44 ===
+accepting AMQP connection <0.32318.61> (52.29.119.55:48781 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::14:53:55 ===
+closing AMQP connection <0.32318.61> (52.29.119.55:48781 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:02:10 ===
+accepting AMQP connection <0.32389.61> (52.29.119.55:48832 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:02:18 ===
+closing AMQP connection <0.32389.61> (52.29.119.55:48832 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:02:19 ===
+accepting AMQP connection <0.32407.61> (52.29.119.55:48842 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:02:29 ===
+closing AMQP connection <0.32407.61> (52.29.119.55:48842 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:11:57 ===
+accepting AMQP connection <0.32485.61> (52.29.119.55:48899 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:12:04 ===
+closing AMQP connection <0.32485.61> (52.29.119.55:48899 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:12:06 ===
+accepting AMQP connection <0.32503.61> (52.29.119.55:48912 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:12:15 ===
+closing AMQP connection <0.32503.61> (52.29.119.55:48912 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:15:05 ===
+accepting AMQP connection <0.32539.61> (52.29.119.55:48937 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:15:13 ===
+closing AMQP connection <0.32539.61> (52.29.119.55:48937 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:15:14 ===
+accepting AMQP connection <0.32557.61> (52.29.119.55:48948 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:15:23 ===
+closing AMQP connection <0.32557.61> (52.29.119.55:48948 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:21:27 ===
+accepting AMQP connection <0.32613.61> (52.29.119.55:48989 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:21:35 ===
+closing AMQP connection <0.32613.61> (52.29.119.55:48989 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:21:36 ===
+accepting AMQP connection <0.32631.61> (52.29.119.55:49000 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:21:45 ===
+closing AMQP connection <0.32631.61> (52.29.119.55:49000 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:23:39 ===
+accepting AMQP connection <0.32660.61> (52.29.119.55:49021 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:23:47 ===
+closing AMQP connection <0.32660.61> (52.29.119.55:49021 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:23:48 ===
+accepting AMQP connection <0.32678.61> (52.29.119.55:49033 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:23:57 ===
+closing AMQP connection <0.32678.61> (52.29.119.55:49033 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:24:17 ===
+accepting AMQP connection <0.32699.61> (52.29.119.55:49045 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:24:25 ===
+closing AMQP connection <0.32699.61> (52.29.119.55:49045 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:25:48 ===
+accepting AMQP connection <0.32725.61> (52.29.119.55:49064 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:25:55 ===
+closing AMQP connection <0.32725.61> (52.29.119.55:49064 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:25:57 ===
+accepting AMQP connection <0.32743.61> (52.29.119.55:49075 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:26:07 ===
+closing AMQP connection <0.32743.61> (52.29.119.55:49075 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 26-Mar-2021::15:26:19 ===
+accepting AMQP connection <0.32762.61> (52.29.119.55:49088 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 26-Mar-2021::15:26:27 ===
+closing AMQP connection <0.32762.61> (52.29.119.55:49088 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 27-Mar-2021::10:03:33 ===
+accepting AMQP connection <0.7060.62> (52.29.119.55:54392 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 27-Mar-2021::10:03:41 ===
+closing AMQP connection <0.7060.62> (52.29.119.55:54392 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 27-Mar-2021::10:03:42 ===
+accepting AMQP connection <0.7078.62> (52.29.119.55:54404 -> 10.84.5.201:5672)
+
+=WARNING REPORT==== 27-Mar-2021::10:03:53 ===
+closing AMQP connection <0.7078.62> (52.29.119.55:54404 -> 10.84.5.201:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 28-Mar-2021::06:25:03 ===
+Rotating logs with suffix ''
