@@ -1,0 +1,149 @@
+input {
+       beats{
+        host => "192.168.1.109"
+        port => "5044"
+}
+}
+filter {
+    if [log][file][path]  =~ "aruba.log" {
+                grok {
+                match => [ "message", "%{YEAR}%{SPACE}%{WORD:[event][hostname]}%{SPACE}%{WORD}\[%{WORD:[event][code]}]:%{SPACE}<%{WORD:[event][id]}>%{SPACE}<%{WORD:[event][severity]}>%{SPACE}<%{WORD:[event][process_name]}%{SPACE}%{IP:[source][ipaddress]}>%{SPACE}username=%{WORD:[event][user_id]}%{SPACE}MAC=%{NOTSPACE:dhcp_mac_address}%{SPACE}IP=%{IP:[destination][ipaddress]}%{SPACE}%{GREEDYDATA:[event][summary]}.*"]
+                match => [ "message", "%{YEAR}%{SPACE}%{WORD:[event][hostname]}%{SPACE}%{WORD}\[%{WORD:[event][code]}]:%{SPACE}<%{WORD:[event][id]}>%{SPACE}<%{WORD:[event][severity]}>%{SPACE}<%{WORD:[event][process_name]}%{SPACE}%{IP:[source][ipaddress]}>%{SPACE}%{WORD}%{SPACE}%{WORD}%{SPACE}%{WORD}:%{SPACE}username=%{WORD:[event][user_id]}%{SPACE}MAC=%{NOTSPACE:dhcp_mac_address}%{SPACE}IP=%{IP:[destination][ipaddress]}.*"]
+                match => [ "message", "%{YEAR}%{SPACE}%{WORD:[event][hostname]}%{SPACE}%{DATA:syslog_program}\[%{POSINT:syslog_pid}\]:%{SPACE}<%{WORD:[event][code]}>%{SPACE}<%{WORD:[event][severity]}>%{SPACE}<%{WORD:[event][process_name]}%{SPACE}%{IP:[source][ipaddress]}>%{SPACE}MAC=%{NOTSPACE:dhcp_mac_address}%{SPACE}%{GREEDYDATA:[event][summary]}.*"]
+               match => [ "message", "%{YEAR}%{SPACE}%{HOST:HOSTNAME}%{SPACE}%{WORD:[event][category]}\[%{WORD:[event][id]}]:%{SPACE}<%{WORD:[event][code]}>%{SPACE}<%{WORD:[event][severity]}>%{SPACE}<%{GREEDYDATA:[event][hostname]}%{SPACE}%{IP:[source][ipaddress]}>%{SPACE}%{WORD}%{SPACE}%{WORD:[event][action]}%{SPACE}%{WORD:[event][status]}.%{SPACE}%{GREEDYDATA:[event][summary]}.*"]
+                     }
+              kv {
+                  source => "[event][summary]"
+                 exclude_keys => ["AP", "IP", "MAC", "VLAN", "Role", "role", "SSID", "reason", "profile", "result", "server", "method"]
+
+                 }
+                 mutate {
+                 rename => {"username"  => "[event][user_id]"}
+                 rename => {"userip"  => "[event][user_ip]"}
+                 rename => {"usermac"  => "[event][user_macip]"}
+                 rename => {"authmethod"  => "[event][protocol]"}
+                 rename => {"servername"  => "[event][agent_id_status]"}
+                 rename => {"serverip"  => "[event][server_ip]"}
+                 rename => {"apname"  => "[event][application_name]"}
+                 rename => {"bssid"  => "[event][basicserver_id]"}
+                       }
+
+
+                                        }
+else if [log][file][path] =~ "forsecout.log" {
+        grok {
+                match => [ "message", "%{CISCO_REASON}\[%{WORD:[event][code]}]:%{SPACE}%{WORD:[event][protocol]}%{SPACE}%{WORD}%{SPACE}%{WORD}:%{SPACE}%{WORD:[event][source]}:%{SPACE}%{IP:[source][ipaddress]},%{SPACE}%{WORD:[event][rule]}:%{SPACE}%{WORD}%{SPACE}%{QS}%{SPACE},%{SPACE}%{WORD:[event][original]}:%{SPACE}%{WORD:[event][severity]}%{QS},%{GREEDYDATA:[event][summary]}.*"]
+                match => [ "message", "%{CISCO_REASON}\[%{WORD:[event][code]}]:%{SPACE}%{WORD:[event][protocol]}%{SPACE}%{WORD}%{SPACE}%{WORD}:%{SPACE}%{WORD:[event][source]}:%{SPACE}%{IP:[source][ipaddress]},%{SPACE}%{WORD:[event][rule]}:%{SPACE}%{WORD}%{SPACE}%{QS}%{SPACE},%{SPACE}%{WORD:[event][severity]}:%{SPACE}%{QS},%{GREEDYDATA:[event][summary]}.*"]
+                match => [ "message", "%{CISCO_REASON}\[%{WORD:[event][code]}]:%{SPACE}%{WORD:[event][protocol]}%{SPACE}%{WORD}%{SPACE}%{WORD}:%{SPACE}%{WORD:[event][source]}:%{SPACE}%{IP:[source][ipaddress]},%{SPACE}%{WORD:[event][rule]}%{GREEDYDATA:[event][summary]}.*"]
+               match => ["message", "%{HOST:HOSTNAME}%{SPACE}%{WORD:[event][category]}\[%{WORD:[event][id]}]:%{SPACE}%{WORD:[event][module]}%{SPACE}%{WORD:[event][type]}%{SPACE}%{WORD:[event][severity]}:%{GREEDYDATA:[event][summary].*"]
+ }
+kv {
+                  source => "[event][summary]"
+                  }
+                mutate {
+                rename => {"source" => "[source][ipaddress]"}
+                rename => {"rule" => "[event][profile]"}
+                rename => {"Match" => "[event][provider]"}
+                rename => {"Category" => "[event][Category]"}
+                rename => {"Details" => "[event][message]"}
+                rename => {"Reason" => "[event][reason]"}
+                rename => {"update" => "[event][result]"}
+                rename => {"Duration" => "[event][time]"}
+                rename => {"Test" => "[event][status]"}
+                rename => {"Clarification" => "[event][kind]"}
+                rename => {"Devices" => "[event][type]"}
+}
+}
+else if [log][file][path] =~ "fortinet.log" {
+kv {
+          exclude_keys => [ "logdesc", "outintf", "cookies", "user", "group", "xauthuser", "xauthgroup", "assignip", "vpntunnel", "init", "dir", "mode", "stage", "role", "result", "srcip", "srcintf", "srcintfrole", "dstintf", "dstintfrole", "sessionid", "proto", "policyid", "policytype", "service", "dstcountr", "trandisp", "app", "duration", "sentbyte", "rcvdbyte", "sentpkt", "appcat", "peer_notif", "reason", "trandisp", "duration", "sentbyte", "rcvdbyte", "sentpkt", "appcat", "peer_notif", "crscore", "craction", "crlevel", "sentbyte", "bandwidth", "cpu", "disk", "disklograte", "dstcountry", "exch", "fazlograte", "freediskstorage", "mem", "nextstat", "rcvdpkt", "setuprate", "srccountry", "sysuptime", "time", "totalsession", "tunnelid", "tunnelip", "tunneltype", "version" ]
+}
+        mutate {
+        rename => {"devname" => "[event][device]"}
+        rename => {"devid" => "[event][deviceid]"}
+        rename => {"logid" => "[event][id]"}
+        rename => {"type" => "[event][type]"}
+        rename => {"subtype" => "[event][network]"}
+        rename => {"level" => "[event][status]"}
+        rename => {"vd" => "[event][user]"}
+        rename => {"eventtime" => "[event][hash]"}
+        rename => {"tz" => "[event][timezone]"}
+        rename => {"msg" => "[event][message]"}
+        rename => {"action" => "[event][action]"}
+        rename => {"remip" => "[event][destination_ip]"}
+        rename => {"locip" => "[event][source_ip]"}
+        rename => {"remport" => "[event][destination_port]"}
+        rename => {"locport" => "[event][source_port]"}
+        rename => {"status" => "[event][outcome]"}
+        rename => {"srcport" => "[event][source_port]"}
+        rename => {"dstip" => "[event][destination_ip]"}
+        rename => {"dstport" => "[event][destination_port]"}
+}
+}
+else if [log][file][path] =~ "checkpoint.log" {
+grok {
+        match => ["message", "%{WORD:[event][name]}:%{NUMBER:[event][user_id]}\|%{GREEDYDATA:[event][action]}\|%{GREEDYDATA:[event][network]}\|%{GREEDYDATA:[event][version]}\|%{GREEDYDATA:[event][category]}\|%{GREEDYDATA:[event][module]}\|%{WORD:[event][outcome]}\|%{GREEDYDATA:[event][summary]}"]
+       }
+        kv {
+           source => "[event][summary]"
+                  include_keys => [ "act", "destinationtranslatedaddress", "destinationtranslatedport", "devicedirection", "rt", "origin", "sourcetranslatedport", "ifname", "logid", "loguid", "sequencenum" ]
+                   }
+                mutate {
+                rename => {"act" => "[event][action]"}
+                rename => {"destinationtranslatedaddress" => "[event][destination_ip]"}
+                rename => {"dpt" => "[destination][port]"}
+                rename => {"devicedirection" => "[event][original]"}
+                rename => {"rt" => "[event][hash]"}
+                rename => {"origin" => "[event][origin]"}
+                rename => {"spt" => "[source][port]"}
+                rename => {"ifname" => "[source][interface]"}
+                rename => {"logid" => "[event][id]"}
+                rename => {"loguid" => "[event][code]"}
+                rename => {"sequencenum" => "[event][sequence]"}
+                rename => {"product" => "[event][product]"}
+                rename => {"sequencenum" => "[event][sequence]"}
+                rename => {"src" => "[source][ipaddress]"}
+                rename => {"dst" => "[source][ipaddress]"}
+                rename => {"version" => "[event][severity]"}
+                rename => {"destinationtranslatedport" => "[event][destination_port]"}
+
+          }
+
+      }
+
+  }
+output {
+  stdout{codec => rubydebug}
+if [log][file][path] =~ "aruba.log" {
+  elasticsearch {
+      hosts => ["http://192.168.1.103:9200"]
+      index => "aruba1-"
+      user => "akhil"
+      password => "M9989143466#a"
+    }
+}
+else if [log][file][path] =~ "forsecout.log" {
+elasticsearch {
+      hosts => ["http://192.168.1.103:9200"]
+      index => "forsecout1-"
+      user => "akhil"
+      password => "M9989143466#a"
+    }
+}
+else if [log][file][path] =~ "fortinet.log" {
+elasticsearch {
+      hosts => ["http://192.168.1.103:9200"]
+      index => "fortinet1-"
+      user => "akhil"
+      password => "M9989143466#a"
+    }
+}
+else if [log][file][path] =~ "checkpoint.log" {
+elasticsearch {
+      hosts => ["http://192.168.1.103:9200"]
+      index => "checkpoint1-"
+      user => "akhil"
+      password => "M9989143466#a"
+    }
+ }
+}
