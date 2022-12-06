@@ -1,0 +1,232 @@
+PUT _ilm/policy/policy_for_edge-logs
+{
+  "policy": {
+    "phases": {
+      "hot": {
+        "actions": {
+          "rollover": {
+            "max_size":"10gb",
+            "max_age":"1d"
+          },
+          "set_priority": {
+            "priority": 100
+          }
+        }
+      },
+      "warm": {
+        "min_age": "1d",
+        "actions": {
+          "forcemerge": {
+            "max_num_segments": 1
+          },
+          "shrink": {
+            "number_of_shards": 1
+          },
+          "allocate": {
+            "require": {
+              "data": "warm"
+            }
+          },
+          "set_priority": {
+            "priority": 50
+          }
+        }
+      },
+	  "cold": {
+        "min_age": "3d",
+        "actions": {
+          "allocate": {
+            "require": {
+              "data": "cold"
+            }
+          },
+          "set_priority": {
+            "priority": 25
+          }
+        }
+      },
+      "delete": {
+        "min_age": "6d",
+        "actions": {
+          "delete": {}
+        }
+      }
+    }
+  }
+}
+
+PUT /_template/template_for_edge-logs
+{
+  "index_patterns": ["edge-logs-*"],                 
+   "settings": {
+    "index" : {
+        "lifecycle" : {
+          "name" : "policy_for_edge-logs",
+          "rollover_alias" : "edge-logs-"
+        },
+        "routing" : {
+          "allocation" : {
+            "require" : {
+              "box_type" : "hot"
+            }
+          }
+        },
+        "unassigned" : {
+          "node_left" : {
+            "delayed_timeout" : "1m"
+          }
+        },
+        "number_of_shards" : "2",
+        "number_of_replicas" : "1"
+      }
+  },
+ "mappings" : {
+      "properties" : {
+	  "@timestamp" : {
+        "type" : "date"
+      },
+      "@version" : {
+        "type" : "keyword"
+      },
+	    "message" : {
+		    "type" : "keyword"
+	  },
+	  "tags"   :  {
+	    "type" :  "keyword"
+	  },
+	"agent" : {
+		   "properties" : {
+		 "ephemeral_id" : {
+			  "type" : "keyword"
+			},
+		 "hostname" : {
+			  "type" : "keyword"
+			},
+		 "id" : {
+			  "type" : "keyword"
+			},
+		 "name" : {
+			  "type" : "keyword"
+			},
+		 "type" : {
+			  "type" : "text"
+			},
+		 "version" : {
+			  "type" : "keyword"
+			}
+		}
+	  },
+	"ecs" : {
+		  "properties" : {
+		 "version" : {
+			  "type" : "keyword"
+			}
+		}
+	  },	 
+	 "event" : { 
+		  "properties" : {
+         "module" : {
+           "type" : "keyword"
+         },
+         "severity" : {
+           "type" : "keyword"
+         },
+         "summary" : {
+           "type" : "keyword"
+         },
+         "code" : {
+           "type" : "keyword"
+         },
+         "category" : {
+           "type" : "keyword"
+         },
+         "action" : {
+           "type" : "keyword"
+         }
+		}
+      },
+  "input" : { 
+		  "properties" : {
+		 "type" : {
+				"type" : "text"
+            }
+          }
+        },		
+	"log" : {
+		  "properties" : {
+		 "file.path" : {
+			  "type" : "keyword"
+			},
+		 "offset" : {
+			  "type" : "keyword"
+			}
+		}
+      },
+  "host" : {
+		  "properties" : {
+		 "architecture" : {
+				"type" : "keyword"
+            },
+		 "containerized" : {
+				"type" : "boolean"
+            },	
+		 "hostname" : {
+        "type" : "keyword"
+            },
+		 "id" : {
+        "type" : "keyword"
+            },
+		 "ip" : {
+			 "type" : "keyword"
+				 
+		    },
+		 "mac" : {
+			 "type" : "text"
+			},
+		 "name" : {
+			 "type" : "keyword"
+			},
+		 "os.codename"   : {
+			 "type" : "text"
+			},
+		 "os.family" : {
+			 "type" : "keyword"
+				 
+		    },
+		 "os.kernel" : {
+			 "type" : "keyword"
+			},
+		 "os.name" : {
+			 "type" : "keyword"
+			},
+		 "os.platform"   : {
+			 "type" : "keyword"
+			},
+		 "os.type"  :  {
+			 "type" :  "keyword"
+		    },
+		 "os.version"  :  {
+			 "type"   :  "keyword"
+			}
+		}
+	}
+}
+} 
+}
+PUT /%3Cedge-logs-%7Bnow%2Fd%7D-000001%3E 
+{
+  "aliases": {
+    "edge-logs-":{
+      "is_write_index": true 
+    }
+}
+}
+
+
+
+
+
+
+
+
+
